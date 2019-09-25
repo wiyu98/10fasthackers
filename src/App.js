@@ -1,7 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from 'reactn';
 import Textbox from './Textbox';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   focus() {
     document.getElementById("nextline").focus()
   }
